@@ -1,0 +1,121 @@
+<ActionBar title="Add Supplier">
+</ActionBar>
+<side-drawer-page>
+<StackLayout verticalAlign="center" height="100" style="margin-top:-20%;" >
+    <Progress [value]="progressValue" (valueChanged)="onValueChanged($event)" maxValue="100" class="m-20"></Progress>
+</StackLayout>
+<GridLayout rows="*" columns="*" sdkExampleTitle sdkToggleNavButton style="margin-top:-70;width:90%;">
+    <ScrollView row="0" col="0">
+        <GridLayout rows="*" columns="*">
+            <StackLayout class="form">
+               
+                <StackLayout class="input-field" *ngIf="!showElement">
+                    <!--<Label class="label" text="Name of Company" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Name Company Name" text="" row="1" col="1"></TextField>
+                     <TextField  id="firstTextFieldId" hint="Address of Company" text="" row="1" col="1"></TextField>
+                <!--  <Label class="label" text="Location of Company" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="City, Company" text="" row="1" col="1"></TextField>
+                   <!--  <Label class="label" text="Business Registration License" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Year Company Founded" text="" row="1" col="1"></TextField>
+                     <DropDown #dd backroundColor="red" hint="Type of Firm" style="font-size:18%;padding-left:5%" [firm]="firm" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                <!--   <Label class="label" text="Company Description" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Company Description" text="" row="1" col="1"></TextField>
+                 <!-- <Label class="label" text="Main Customers" row="1" col="0" textWrap="true"></Label>-->
+                   <TextField  id="firstTextFieldId" hint="Main Customers" text="" row="1" col="1"></TextField>
+                   <DropDown #dd backroundColor="red" hint="Industry"[mproducts]="industry" style="font-size:18%;padding-left:5%" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                    <DropDown #dd backroundColor="red" hint="Market Covered"[mproducts]="mcovered" style="font-size:18%;padding-left:5%"[(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                <Button style="background-color:#141a2e; width:100%;" class="btn btn-primary btn-active" id="button" text="Next" (tap)="hide1()"></Button>
+                 <Button style="background-color:red; width:100%;" class="btn btn-primary btn-active" id="button" text="Cancel" (tap)="onTap($event)"></Button>
+                </StackLayout>
+                
+
+                <StackLayout class="input-field">
+                  <!--  <Label class="label" text="Business Registration License" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Business Registration License" text="" row="1" col="1"></TextField>
+                </StackLayout>
+                <!--Upload scanned copy of Business Registration License-->
+              
+               <StackLayout class="input-field">
+                   <Label class="label" text="Upload Business Registration License" row="1" col="1" style="text-align:center;" textWrap="true"></Label>
+                 <Button style="color:black; width:100%;" class="btn btn-default btn-active" id="button" text="Upload File" (tap)="open()"></Button>
+                </StackLayout>
+           
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Product Certifications" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Enter Product Certifications" text="" row="1" col="1"></TextField>
+                </StackLayout> 
+                <!--Upload scanned copy of Business Registration License-->
+                
+                <StackLayout class="input-field"><!-- ability tochoose more than 1 and add new -->
+                    <DropDown #dd backroundColor="red" hint="Main Products" [mproducts]="mproducts" style="font-size:18%;padding-left:5%"[(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                </StackLayout> 
+
+                <StackLayout class="input-field"><!-- ability tochoose more than 1 and add new -->
+                    <DropDown #dd backroundColor="red" hint="Product Category"[pcategories]="pcategories"style="font-size:18%;padding-left:5%" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                </StackLayout> 
+
+                <StackLayout class="input-field">
+                   <Label class="label" text="Upload Products Images" row="1" col="1" style="text-align:center;" textWrap="true"></Label>
+                 <Button style="color:black; width:100%;" class="btn btn-default btn-active" id="button" text="Upload File" (tap)="open()"></Button>
+                </StackLayout>
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Main Customers" row="1" col="0" textWrap="true"></Label>-->
+                   <TextField  id="firstTextFieldId" hint="Products Certifications" text="" row="1" col="1"></TextField>
+                </StackLayout>
+
+                <StackLayout class="input-field">
+                   <Label class="label" text="Upload Products Certifications" row="1" col="1" style="text-align:center;" textWrap="true"></Label>
+                 <Button style="color:black; width:100%;" class="btn btn-default btn-active" id="button" text="Upload File" (tap)="open()"></Button>
+                </StackLayout>
+                
+                <StackLayout class="input-field"><!-- ability tochoose more than 1 and add new -->
+                    <DropDown #dd backroundColor="red"hint="Product Seen"style="font-size:18%;padding-left:5%" [pcategories]="pseen" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                </StackLayout>  
+
+                    <Button style="background-color:#141a2e; width:100%;" class="btn btn-primary btn-active" id="button" text="Next" (tap)="onTap($event)"></Button>
+                    <Button style="background-color:red; width:100%;" class="btn btn-primary btn-active" id="button" text="Cancel" (tap)="onTap($event)"></Button>
+
+
+                <StackLayout class="input-field"><!-- ability tochoose more than 1 and add new -->
+                    <DropDown #dd backroundColor="red" hint="Payment Terms"style="font-size:18%;padding-left:5%" [pterms]="pterms" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" colSpan="2"></DropDown>
+                </StackLayout>
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Contact Person Name" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Contact Person Name" text="" row="1" col="1"></TextField>
+                </StackLayout> 
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Contact Person Mobile Number" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  keyboardType="number" autocorrect="false" id="firstTextFieldId" hint="Enter Contact Person Mobile Number" text="" row="1" col="1"></TextField>
+                </StackLayout> 
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Contact Person Email" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Enter Contact Person Email" text="" row="1" col="1"></TextField>
+                </StackLayout> 
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Languages understood" row="1" col="0" textWrap="true"></Label>-->
+                    <TextField  id="firstTextFieldId" hint="Languages understood" text="" row="1" col="1"></TextField>
+                </StackLayout>
+
+                <StackLayout class="input-field">
+                   <!-- <Label class="label" text="Main Customers" row="1" col="0" textWrap="true"></Label>-->
+                   <TextField  id="firstTextFieldId" hint="Main Customers" text="" row="1" col="1"></TextField>
+                </StackLayout> 
+                
+                 <StackLayout class="input-field">
+                   <DropDown #dd backroundColor="red" style="font-size:18%;padding-left:5%" hint="Highest Education Qualification"[HQualification]="HQualification" [(ngModel)]="selectedIndex" (selectedIndexChanged)="onchange($event)" (opened)="onopen()" row="0" col="1"></DropDown>
+                </StackLayout>
+         
+                <StackLayout style="width:100%">
+                    <Button style="background-color:#141a2e; width:100%;" class="btn btn-primary btn-active" id="button" text="Submit" (tap)="onTap($event)"></Button>
+                    <Button style="background-color:red; width:100%;" class="btn btn-primary btn-active" id="button" text="Cancel" (tap)="onTap($event)"></Button>
+                    </StackLayout> 
+                </StackLayout>
+        </GridLayout>
+    </ScrollView>
+</GridLayout>
+</side-drawer-page>

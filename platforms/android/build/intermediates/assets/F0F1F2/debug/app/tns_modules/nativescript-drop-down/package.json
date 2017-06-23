@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "nativescript-drop-down@3.0.2",
+      "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant"
+    ]
+  ],
+  "_from": "nativescript-drop-down@3.0.2",
+  "_id": "nativescript-drop-down@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-NB0vraxRAoD3Rnjt7blMr+N7FGg=",
+  "_location": "/nativescript-drop-down",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-drop-down@3.0.2",
+    "name": "nativescript-drop-down",
+    "escapedName": "nativescript-drop-down",
+    "rawSpec": "3.0.2",
+    "saveSpec": null,
+    "fetchSpec": "3.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-drop-down/-/nativescript-drop-down-3.0.2.tgz",
+  "_spec": "3.0.2",
+  "_where": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant",
+  "author": {
+    "name": "Peter Staev",
+    "email": "peter@tangrasoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterStaev/NativeScript-Drop-Down/issues"
+  },
+  "contributors": [
+    {
+      "name": "Dick Smith",
+      "url": "https://github.com/DickSmith"
+    }
+  ],
+  "description": "A NativeScript DropDown widget.",
+  "homepage": "https://github.com/PeterStaev/NativeScript-Drop-Down#readme",
+  "keywords": [
+    "NativeScript",
+    "DropDown",
+    "Spinner",
+    "tangra"
+  ],
+  "license": "Apache-2.0",
+  "main": "drop-down",
+  "name": "nativescript-drop-down",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Interface"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterStaev/NativeScript-Drop-Down.git"
+  },
+  "typings": "drop-down.d.ts",
+  "version": "3.0.2"
+}

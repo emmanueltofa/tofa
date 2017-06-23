@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/layout-v11/simple_list_item.xml",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/List-2017.1.504-dev-release/res/layout-v11/simple_list_item.xml"
+    },
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/layout-v11/on_demand_manual.xml",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/List-2017.1.504-dev-release/res/layout-v11/on_demand_manual.xml"
+    }
+]

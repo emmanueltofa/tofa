@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/Common-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="35d17e8af8b765ad6db33ed0dad10fd3945aec35">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Common-2017.1.504-dev-release_b82d7bcea14d1a20c31469923406bdd1c0d571c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-animated-vector-drawable-23.4.0_322fed63ec4fe193150df534dfd9af09ee638c3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-widgets-release_4f4a4bf063c8214510298fb6461ba94770cc1bcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-appcompat-v7-23.4.0_7df4676061ba1bf28ea6b75e3cb588fc6f98152f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-design-23.4.0_ffe7d1694782ad0aa5972ba4c538ab526a003e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-support-vector-drawable-23.4.0_bc98e14357406210c34729e9621808689f72d5a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/Primitives-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8370f7dca6cdb1c2b3407855a4c6d481ddd7b0d6">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Primitives-2017.1.504-dev-release_d0bf545e745461efa301fbcf83711219258e6c4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.library.tangxiaolv/telegramgallery/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccc1b9cc9439d707d48d84d64728c621330b051c">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.library.tangxiaolv-telegramgallery-1.0.1_145290e322225b0a9e7ce845212d119fee775fc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/tofamerchant/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cb501f7cf4d74a5f9ec1a9c8172e552f57ea3215">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/tofamerchant-runtime-unspecified_0ca41d42e8ddea6b7bde1a58de50f47fd66e60a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/tofamerchant/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/binding-generator_c2905e115c56deb6599f74f26c7d1dc0fc94766c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/internal_impl-23.4.0_4a4ff63cef5274e63a640bcff84220dc28105b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/Data-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b641bfe74a612df8e72181362ec895f8f56f73e">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Data-2017.1.504-dev-release_1451543fca14fd85c264431333ce0c40ec034347.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/support-annotations-23.4.0_095e94e3ace65b27dd9bbc82c3b42c93680f462b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-support-v4-23.4.0_3b577f1f7d8ec50a2b93c3da5ca49d498a6f85d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/List-2017.1.504-dev-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="68e4f95c7b18e9879ebfb526a9545ed960ef3190">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-List-2017.1.504-dev-release_085c79a1caf470845dd3e0d286c4be46e4cb3d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-recyclerview-v7-23.4.0_88750705ab0919c6a7c2da2fab26fc2b03ce0271.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,15 @@
+StackLayout {
+  margin-left: 50;
+  margin-right: 50;
+  margin-top:20;
+  padding-bottom: 15;
+  background-color: white;
+};
+TextField {
+ height:50;
+ padding:5;
+};
+ActionBar{
+    background-color: #141a2e;
+    color:#fff;
+};

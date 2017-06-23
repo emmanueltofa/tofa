@@ -1,0 +1,4 @@
+
+android {
+    flavorDimensions "nativescripttelegramimagepicker", "nativescripttelerikui", "tnscoremoduleswidgets"
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxhdpi/icon.png",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxhdpi/ic_menu_black.png",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/src/main/res/drawable-xxhdpi/ic_menu_black.png"
+    },
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxhdpi/logo.png",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxhdpi/background.png",
+        "source": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant/platforms/android/src/main/res/drawable-xxhdpi/background.png"
+    }
+]

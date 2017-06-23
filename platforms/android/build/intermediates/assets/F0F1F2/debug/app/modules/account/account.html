@@ -1,0 +1,20 @@
+<ActionBar title="Account">
+</ActionBar>
+
+<side-drawer-page>
+  <GridLayout class="home-page p-30">
+        <StackLayout>
+            <Image class="m-t-30 m-b-15" src="res://icon" width="150" height="150"></Image> 
+       <TextField  id="firstTextFieldId" hint="Ehun Abbe" text="" row="1" col="1"></TextField>
+         <TextField  id="firstTextFieldId" hint="address" text="" row="1" col="1"></TextField>
+           <TextField  id="firstTextFieldId" hint="Phone Number" text="" row="1" col="1"></TextField>
+             <TextField  id="firstTextFieldId" hint="Email Address" text="" row="1" col="1"></TextField>
+               <TextField  id="firstTextFieldId" hint="Agent-ID" text="" row="1" col="1"></TextField>
+     
+      <Button style="background-color:#141a2e; width:100%;" class="btn btn-primary btn-active" id="button" text="Update" (tap)="onTap($event)"></Button>
+      <Button style="background-color:red; width:100%;" class="btn btn-primary btn-active" id="button" text="cancel" (tap)="onTap($event)"></Button>
+        </StackLayout>
+
+  </GridLayout>
+</side-drawer-page>
+       

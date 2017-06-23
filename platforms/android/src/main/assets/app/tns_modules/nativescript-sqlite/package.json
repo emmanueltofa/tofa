@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      "nativescript-sqlite@1.1.7",
+      "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant"
+    ]
+  ],
+  "_from": "nativescript-sqlite@1.1.7",
+  "_id": "nativescript-sqlite@1.1.7",
+  "_inBundle": false,
+  "_integrity": "sha1-CLcp4UHsKBigTu81SBM9jWZuF8Q=",
+  "_location": "/nativescript-sqlite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-sqlite@1.1.7",
+    "name": "nativescript-sqlite",
+    "escapedName": "nativescript-sqlite",
+    "rawSpec": "1.1.7",
+    "saveSpec": null,
+    "fetchSpec": "1.1.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-sqlite/-/nativescript-sqlite-1.1.7.tgz",
+  "_spec": "1.1.7",
+  "_where": "/Users/tofa/Desktop/tofaApps/pro/tofa_merchant",
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-sqlite/issues"
+  },
+  "description": "A sqlite NativeScript module for Android and iOS",
+  "homepage": "https://github.com/nathanaela/nativescript-sqlite",
+  "keywords": [
+    "NativeScript",
+    "SQL",
+    "SQLite",
+    "Database",
+    "DB",
+    "iOS",
+    "Android",
+    "JavaScript"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/nathanaela/nativescript-sqlite/blob/master/LICENSE"
+  },
+  "main": "sqlite",
+  "name": "nativescript-sqlite",
+  "nativescript": {
+    "platforms": {
+      "android": "1.4.0",
+      "ios": "1.4.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaela/nativescript-sqlite.git"
+  },
+  "version": "1.1.7"
+}
